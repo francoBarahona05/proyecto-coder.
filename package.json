@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-personal-coder",
+  "version": "1.0.0",
+  "description": "pagina sobre informacion para el mundo del fit con rutinas, tips ect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-patch scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoBarahona05/proyecto-personal-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoBarahona05/proyecto-personal-coder/issues"
+  },
+  "homepage": "https://github.com/francoBarahona05/proyecto-personal-coder#readme",
+  "dependencies": {
+    "express-load": "^1.1.16",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

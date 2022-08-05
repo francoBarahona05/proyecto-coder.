@@ -1,0 +1,62 @@
+.contactanos{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+    .form__titulo{
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+         
+
+    .form__reg{
+        height: 100%;
+            
+        input{
+          width: 100%;
+          margin-bottom: 15px;
+          padding: 7px;
+          box-sizing: border-box;
+           font-size: 17px;    
+          text-decoration: none;
+          height: 65px;
+        }
+    }
+
+    div{
+
+        .contactanos__input--area{
+             min-width: 100%;
+            max-width: 100%;
+            max-height: 100px;
+         }
+
+    }
+        
+   div{
+    .btn{
+        padding-top: 5px;
+        font-size: 40px;
+        width: 100% !important;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        background: $color-primary;
+        border-radius: solid 1px #fff;
+        border: 0px ;
+    }
+   }
+
+    .btn:hover{
+        background-color: $color-primary;
+        color: $color-secondary !important;
+    }
+    
+
+}

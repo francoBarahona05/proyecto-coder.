@@ -1,0 +1,54 @@
+.navbar{
+    background-color: $color-secondary !important;
+    
+    
+    .container-fluid {
+        font-size: 20px;
+        font-weight: 545;
+
+        .navbar-brand{
+            padding-top: 20px;
+            padding-left: 46px;
+            color: #fff;
+            height: 65px;
+            transition: .3s linear;            
+        }
+        
+        .navbar-brand:hover{
+            color: $color-primary;
+            transform: scale(1.1);
+        }
+
+        .navbar-toggler{
+            background-color: $color-primary;
+        }
+        
+    }
+   
+    .navbar-nav{
+        margin-left: 220px;
+        
+        .nav-item{
+            margin-left: 45px;
+            margin-right: 45px;
+           
+            .nav-link{
+                transition: .3s linear;
+                color: #fff;
+                             
+            }
+
+            .nav-link:hover{
+                color: $color-primary;
+                transform: scale(1.1);
+            }    
+            
+        }       
+
+    }
+      
+}
+
+.bod1{
+    background-color: #212025;
+}

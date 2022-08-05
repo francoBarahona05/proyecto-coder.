@@ -1,0 +1,53 @@
+.contenedor__triangulo{
+    max-width: 1200px;
+    height: 200px;
+    position:relative;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    margin-top: 650px;
+
+    .triangulo{
+        margin-left: 500px;
+        margin-top: -450px;
+        width: 250px;
+        height: 250px;
+        background: red;
+        position: absolute;
+        transform: rotate(45deg);
+        animation: t2 7s ease infinite;
+
+        
+    }
+
+    .triangulo1{
+        width: 250px;
+        height: 250px;
+        background: linear-gradient(to left,#0ea1e6, #1e67c7);
+        top: 300px;
+        left: 100px;
+        animation: t2 9s ease infinite;
+    }
+    
+
+    .triangulo2{
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(to left,#ee8105, #c7371e);
+        top: 150px;
+        left: 400px;
+        animation: t2 5s ease infinite;
+
+        @keyframes t2{
+            0%{
+                transform:rotate(45dg) translateY(0px);
+        
+            }
+            50%{
+                transform:rotate(45deg) translate(40px);
+            }
+            100%{
+                transform:rotate(45dg) translate(0px);
+            }
+        }
+    }
+}

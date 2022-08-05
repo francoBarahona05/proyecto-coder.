@@ -1,0 +1,59 @@
+.contenedor__triangulo--1{
+    max-width: 1200px;
+    height: 200px;
+    margin-top: 10px;
+    position:relative;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    margin-top: -100px;
+
+    .triangulo__rutinas{
+        margin-top: 150px;
+    }
+
+}
+
+.container-1{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding-top: 0;
+    margin-bottom: 70px;
+    justify-content: space-between;
+    margin:auto;
+
+
+    .card{
+        width: 350px;
+        margin: 0;
+        padding: 20px;
+        box-shadow: 20px 20px 50px  rgba(0,0,0,0.5);
+        border-left: 1px solid rgba(246, 244, 244, 0.989);
+        border-top: 1px solid rgba(246, 244, 244, 0.989);
+        border-radius: 15px;
+        background: $color-secondary;
+
+        .card-body{
+            color: #fff;
+
+            .btn{
+                width: 100% !important;
+                margin-bottom: 20px;
+                padding: 7px;
+                box-sizing: border-box;
+                font-size: 17px;
+                background: $color-primary;
+                border-radius: solid 1px #fff;
+               
+                border: 0px ;
+            
+            }
+            .btn:hover{
+                background-color: $color-primary;
+                color: $color-secondary !important;
+            }
+        }
+    }
+     
+}
