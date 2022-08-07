@@ -1,0 +1,541 @@
+@media screen and (min-width:1700px) {
+   
+    .navbar{
+
+        .container-fluid{
+
+            .navbar-brand{
+               margin-bottom: 40px;
+               font-size: 35px;
+               font-weight: 600;
+            }
+            
+            .navbar-nav{
+                padding-left: 330px;
+                height: 100px;
+               
+                
+                .nav-item{
+    
+                    .nav-link{
+    
+                        font-size: 35px;
+                        font-weight: 600;
+    
+                    }
+                }
+            }
+        
+        }
+
+
+    }
+    
+   
+
+
+    .header__index{
+
+
+        .transition_1{
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 200px;
+            z-index: +1;
+           
+            .transition__2{
+
+                h1{
+
+                    font-size: 130px;
+                    margin-top: 230px;
+                    color: #fff;
+                    font-weight: 900;
+                    
+                }
+
+                @keyframes subtitulo{
+                    0%{
+                        transform: translatey(-180px);
+                    }
+                }
+
+            }
+
+            .transition__3{
+
+                h2{
+                             
+                    font-size: 130px;
+                    font-weight: 800;
+                }
+                    
+                @keyframes subtitulo2{
+                    
+                    0%{
+                        transform: translatex(-1400px) ;
+                    }
+                }             
+
+                
+            }
+
+            
+        }
+
+    }
+    
+    .contenedor__carta{
+        margin-top: 1100px;
+
+        .carta{
+            margin: 0 105px 0 105px;
+        }
+
+
+    }
+
+    .triangulo{
+        display: none;
+    }
+    
+
+
+    /*---rutinas---*/
+    .container-1{
+        width: 99%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-bottom: 270px;
+        
+        .card{
+            margin: auto;
+    
+        }
+
+
+    }
+
+
+
+    .contactanos{
+        width: 40%; 
+        margin-top: 220px;
+        margin-bottom: 220px;   
+            
+                     
+        .form__titulo{
+            font-size: 80px;
+            
+        }
+        
+        div{
+            .btn{
+                padding-top: 5px;
+                font-size: 40px;
+            }
+
+        }
+
+        
+    }
+
+   
+   
+    .form{
+
+        width: 40%;
+        margin-top: 250px;
+        margin-bottom: 240px;
+        
+        .form__contenedor{
+
+            .form__titulo{
+                font-size: 80px;
+                
+            }
+    
+            div{
+                .form__reg--text{
+                    font-size: 30px;
+                }
+                .btn{
+                    padding-top: 5px;
+                    font-size: 40px;
+                }
+    
+            }
+
+        }
+   
+    }
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+    /*---index---*/
+
+    .container-fluid{
+
+        a{
+            margin-left: -5px;
+
+        }
+
+        .navbar-nav{
+            margin-left: 170px;
+        }
+        
+    }
+
+    
+
+    .contenedor__triangulo{
+        
+        left: 320px;
+   
+        .triangulo{
+            width: 200px;
+            height: 200px;
+        }
+        .triangulo2{
+            width: 200px;
+            height: 200px;
+        }
+        .triangulo1{
+            width: 200px;
+            height: 200px;
+        }
+
+    }
+
+    .contenedor__carta{
+        margin-top: 750px;
+
+        .carta{
+            width: 280px;
+        }
+    }
+    
+    .container-1{
+        width: 97%;
+    }
+    ;
+}
+
+@media screen and (max-width:1000px) {
+    /*---index---*/
+    .contenedor__triangulo{
+        margin-top: -150px;
+        .triangulo{
+            display:none ;
+        }
+    }
+    
+    .header__index{
+
+        .transition_1{
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 200px;
+            
+            .transition__2{
+
+                h1{
+                    font-size: 55px;
+                    margin-top: -40px;
+                }
+            }
+
+            .transition__3{
+
+                h2{
+                    font-size: 55px;
+                    margin-top: -14px;
+                }
+            }
+
+        } 
+
+    }
+   
+    
+
+    .container-fluid{
+
+        .navbar-nav{
+            margin-left:0px;
+        }    
+
+    }
+    
+    
+
+   
+    .contenedor__carta{
+        position: relative;
+        margin-top: 0px;       
+        display: flex;
+        flex-direction: column;
+
+        .carta{
+        
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 98%;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            overflow: hidden;
+
+            .cover__carta{
+                width: 900px;
+                
+                img{
+                    width: 100%;
+                    transition: all 300ms;
+                }
+        
+            }
+
+            .texto__carta {
+
+                h2{
+                    text-align: left;
+                    margin-left: 20px;
+                    margin-top:0;
+                }
+
+                p{
+                    padding-left:20px ;
+                    margin-top: 20px;
+                }
+
+            }
+
+            .pie__carta{
+                position: absolute;
+                padding-top: 500px;
+            }
+
+        }
+       
+    
+    }
+ 
+
+    /*---fin carta---*/
+
+    /*---footer---*/
+    .footer{
+        margin-top: 100px;
+        margin-bottom: -1300px;
+
+        .footer__box{
+            margin-top: -30px;
+        }
+
+        .footer__box--4{
+            margin-top: 0px;
+
+            .footer__box--1{
+                padding-left: 15px;
+            }
+        }
+    
+    }
+      
+    .contenedor__carta--rutinas{
+        margin-top: 500px;
+    }
+
+   
+    /*---fin footer---*/
+
+
+    /*---rutinas---*/
+
+    
+
+    .container-1{
+       
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;     
+        
+        .card{
+            width: 350px;
+        }
+    }
+
+    .row{
+
+        .rutina__torso-hipertrofia{
+            padding-left:100px ;
+        }
+
+    }
+
+
+    table{  
+        margin-left: 1px;
+    }
+    /*---fin rutinas--*/
+    ;
+}
+
+
+@media screen and (max-width:700px) {
+    /*---index---*/
+
+    .carta{
+
+        .texto__carta {
+
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+   
+   .contenedor__triangulo{
+       width: 5%;
+       margin-left: 0;
+       margin-top: -80px ;
+   }
+ 
+
+    .header__index{
+
+        .transition_1{
+
+            .transition__2 {
+
+               h1{
+                   font-size: 35px;
+                   margin-top: -120px;
+
+                }
+            
+            }
+
+            .transition__3 {
+
+                h2{
+
+                    font-size: 35px;
+                    margin-top: -90px;
+                }
+                
+            }
+        }
+    }
+  
+     
+    .footer{
+
+        .footer__pagina{
+            height: 100%;
+           display: grid;
+           
+           grid-template-areas: 
+           "section2 section2"
+           "section1 section3";
+             
+            .footer__box--3{
+               margin-top: 0;
+               grid-area: section1;
+           
+            }
+
+            .footer__box--4{
+                margin-top: 0;
+                grid-area: section2;
+            }
+
+            .footer__box{
+                grid-area: section3;
+            }
+
+        }
+    }  
+
+  /*---fin index---*/
+
+  /*---contacto---*/
+
+    .contactanos{
+       width:80% ;
+
+        .form{
+            width: 80%;
+ 
+        }
+    }
+   /*registrare*/
+
+    .form{
+        width: 80%;
+    }
+
+
+   /*---fin---*/
+
+   /*---rutina.fuerza---*/
+
+    .container{
+
+        .container-articulo{
+
+            .article__img{
+
+                img{
+                   margin-top: 250px;
+                }
+            }
+
+            .article--2{
+
+                p{
+                    margin-left: 0;
+                    max-width: 100%;
+                }
+            }
+
+            .article{
+
+                p{
+                    padding-left: 0;
+                }
+            }
+            
+            table{
+
+                margin:0;
+        
+                tr{
+                   padding-left: 0;
+                }
+            }
+
+        }
+    }
+
+   /*---fin---*/
+
+
+
+}

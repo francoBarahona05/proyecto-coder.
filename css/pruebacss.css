@@ -205,7 +205,6 @@
     background-color: rgba(23, 22, 22, 0.987);
     padding: 10px; }
 
-/*fin index*/
 .contenedor__triangulo--1 {
   max-width: 1200px;
   height: 200px;
@@ -250,7 +249,6 @@
         background-color: #d63138;
         color: black !important; }
 
-/*fin rutinas*/
 .form {
   margin: auto;
   width: 500px;
@@ -355,8 +353,8 @@
   margin-bottom: 50px; }
 
 .container .rutina__torso-fuerza .rutina__torso--1 {
-  padding-top: 30px;
-  padding-left: 300px; }
+  padding-top: 40px;
+  padding-left: 130px; }
 
 .container .rutina__torso-fuerza .lista li {
   list-style: none; }
@@ -422,3 +420,226 @@
     padding: 10px; }
   .container table tr td:hover {
     background: #6d6d6d; }
+
+@media screen and (min-width: 1700px) {
+  .navbar .container-fluid .navbar-brand {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 600; }
+  .navbar .container-fluid .navbar-nav {
+    padding-left: 330px;
+    height: 100px; }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link {
+      font-size: 35px;
+      font-weight: 600; }
+  .header__index .transition_1 {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    z-index: +1; }
+    .header__index .transition_1 .transition__2 h1 {
+      font-size: 130px;
+      margin-top: 230px;
+      color: #fff;
+      font-weight: 900; }
+  @keyframes subtitulo {
+    0% {
+      transform: translatey(-180px); } }
+    .header__index .transition_1 .transition__3 h2 {
+      font-size: 130px;
+      font-weight: 800; }
+  @keyframes subtitulo2 {
+    0% {
+      transform: translatex(-1400px); } }
+  .contenedor__carta {
+    margin-top: 1100px; }
+    .contenedor__carta .carta {
+      margin: 0 105px 0 105px; }
+  .triangulo {
+    display: none; }
+  /*---rutinas---*/
+  .container-1 {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 270px; }
+    .container-1 .card {
+      margin: auto; }
+  .contactanos {
+    width: 40%;
+    margin-top: 220px;
+    margin-bottom: 220px; }
+    .contactanos .form__titulo {
+      font-size: 80px; }
+    .contactanos div .btn {
+      padding-top: 5px;
+      font-size: 40px; }
+  .form {
+    width: 40%;
+    margin-top: 250px;
+    margin-bottom: 240px; }
+    .form .form__contenedor .form__titulo {
+      font-size: 80px; }
+    .form .form__contenedor div .form__reg--text {
+      font-size: 30px; }
+    .form .form__contenedor div .btn {
+      padding-top: 5px;
+      font-size: 40px; } }
+
+@media screen and (max-width: 1200px) {
+  /*---index---*/
+  .container-fluid a {
+    margin-left: -5px; }
+  .container-fluid .navbar-nav {
+    margin-left: 170px; }
+  .contenedor__triangulo {
+    left: 320px; }
+    .contenedor__triangulo .triangulo {
+      width: 200px;
+      height: 200px; }
+    .contenedor__triangulo .triangulo2 {
+      width: 200px;
+      height: 200px; }
+    .contenedor__triangulo .triangulo1 {
+      width: 200px;
+      height: 200px; }
+  .contenedor__carta {
+    margin-top: 750px; }
+    .contenedor__carta .carta {
+      width: 280px; }
+  .container-1 {
+    width: 97%; } }
+
+@media screen and (max-width: 1000px) {
+  /*---index---*/
+  .contenedor__triangulo {
+    margin-top: -150px; }
+    .contenedor__triangulo .triangulo {
+      display: none; }
+  .header__index .transition_1 {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px; }
+    .header__index .transition_1 .transition__2 h1 {
+      font-size: 55px;
+      margin-top: -40px; }
+    .header__index .transition_1 .transition__3 h2 {
+      font-size: 55px;
+      margin-top: -14px; }
+  .container-fluid .navbar-nav {
+    margin-left: 0px; }
+  .contenedor__carta {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column; }
+    .contenedor__carta .carta {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 98%;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      overflow: hidden; }
+      .contenedor__carta .carta .cover__carta {
+        width: 900px; }
+        .contenedor__carta .carta .cover__carta img {
+          width: 100%;
+          transition: all 300ms; }
+      .contenedor__carta .carta .texto__carta h2 {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 0; }
+      .contenedor__carta .carta .texto__carta p {
+        padding-left: 20px;
+        margin-top: 20px; }
+      .contenedor__carta .carta .pie__carta {
+        position: absolute;
+        padding-top: 500px; }
+  /*---fin carta---*/
+  /*---footer---*/
+  .footer {
+    margin-top: 100px;
+    margin-bottom: -1300px; }
+    .footer .footer__box {
+      margin-top: -30px; }
+    .footer .footer__box--4 {
+      margin-top: 0px; }
+      .footer .footer__box--4 .footer__box--1 {
+        padding-left: 15px; }
+  .contenedor__carta--rutinas {
+    margin-top: 500px; }
+  /*---fin footer---*/
+  /*---rutinas---*/
+  .container-1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0; }
+    .container-1 .card {
+      width: 350px; }
+  .row .rutina__torso-hipertrofia {
+    padding-left: 100px; }
+  table {
+    margin-left: 1px; }
+  /*---fin rutinas--*/ }
+
+@media screen and (max-width: 700px) {
+  /*---index---*/
+  .carta .texto__carta p {
+    font-size: 13px; }
+  .contenedor__triangulo {
+    width: 5%;
+    margin-left: 0;
+    margin-top: -80px; }
+  .header__index .transition_1 .transition__2 h1 {
+    font-size: 35px;
+    margin-top: -120px; }
+  .header__index .transition_1 .transition__3 h2 {
+    font-size: 35px;
+    margin-top: -90px; }
+  .footer .footer__pagina {
+    height: 100%;
+    display: grid;
+    grid-template-areas: "section2 section2" "section1 section3"; }
+    .footer .footer__pagina .footer__box--3 {
+      margin-top: 0;
+      grid-area: section1; }
+    .footer .footer__pagina .footer__box--4 {
+      margin-top: 0;
+      grid-area: section2; }
+    .footer .footer__pagina .footer__box {
+      grid-area: section3; }
+  /*---fin index---*/
+  /*---contacto---*/
+  .contactanos {
+    width: 80%; }
+    .contactanos .form {
+      width: 80%; }
+  /*registrare*/
+  .form {
+    width: 80%; }
+  /*---fin---*/
+  /*---rutina.fuerza---*/
+  .container .container-articulo .article__img img {
+    margin-top: 250px; }
+  .container .container-articulo .article--2 p {
+    margin-left: 0;
+    max-width: 100%; }
+  .container .container-articulo .article p {
+    padding-left: 0; }
+  .container .container-articulo table {
+    margin: 0; }
+    .container .container-articulo table tr {
+      padding-left: 0; }
+  /*---fin---*/ }
