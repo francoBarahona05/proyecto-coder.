@@ -14,9 +14,7 @@
         background: red;
         position: absolute;
         transform: rotate(45deg);
-        animation: t2 7s ease infinite;
-
-        
+        animation: t2 7s ease infinite;        
     }
 
     .triangulo1{
@@ -40,7 +38,6 @@
         @keyframes t2{
             0%{
                 transform:rotate(45dg) translateY(0px);
-        
             }
             50%{
                 transform:rotate(45deg) translate(40px);

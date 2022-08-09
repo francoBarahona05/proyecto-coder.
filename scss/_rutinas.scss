@@ -10,7 +10,6 @@
     .triangulo__rutinas{
         margin-top: 150px;
     }
-
 }
 
 .container-1{
@@ -44,16 +43,14 @@
                 box-sizing: border-box;
                 font-size: 17px;
                 background: $color-primary;
-                border-radius: solid 1px #fff;
-               
+                border-radius: solid 1px #fff;     
                 border: 0px ;
-            
             }
+
             .btn:hover{
                 background-color: $color-primary;
                 color: $color-secondary !important;
             }
         }
     }
-     
 }

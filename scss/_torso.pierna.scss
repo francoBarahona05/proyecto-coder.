@@ -1,12 +1,9 @@
 .container{
-
     .titulo__torso-pierna{
         font-size: 40px;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 50px;
-
-       
     }
     .torso__pierna{
 
@@ -23,7 +20,6 @@
         margin-bottom: 50px;
     }
 
-
     .rutina__torso-fuerza{
 
         .rutina__torso--1{
@@ -35,15 +31,13 @@
             li{
                 list-style: none;
             }
-            
         }
 
         .rutina__torso{
             padding-top: 50px;
         }
-
-
     }
+
     div{
         .subtitle__torso-pierna{
             padding-left: 10px;
@@ -54,20 +48,15 @@
         }
     }
     .rutina__torso-hipertrofia{
-
         padding-top: 70px;
         padding-left:300px ;
-
     }
-   .informacion{
-    margin-top: 30px;
 
-     h3{
-        padding-bottom: 10px;
+    .informacion{
+       margin-top: 30px;
 
-     }
-
-   }
-  
-
+        h3{
+            padding-bottom: 10px;
+        }
+    }
 }

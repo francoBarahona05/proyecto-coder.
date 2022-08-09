@@ -1,7 +1,6 @@
 .navbar{
     background-color: $color-secondary !important;
     
-    
     .container-fluid {
         font-size: 20px;
         font-weight: 545;
@@ -35,20 +34,15 @@
             .nav-link{
                 transition: .3s linear;
                 color: #fff;
-                             
             }
 
             .nav-link:hover{
                 color: $color-primary;
                 transform: scale(1.1);
             }    
-            
         }       
-
     }
-      
 }
-
 .bod1{
     background-color: #212025;
 }
