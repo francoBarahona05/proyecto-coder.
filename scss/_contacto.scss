@@ -37,21 +37,21 @@
     }
         
     div{
-        .btn{
-            padding-top: 5px;
-            font-size: 40px;
+        .boton-contacto{
             width: 100% !important;
             margin-bottom: 20px;
             padding: 7px;
             box-sizing: border-box;
             font-size: 17px;
             background: $color-primary;
-            border-radius: solid 1px #fff;
-            border: 0px ;
+            border-radius: 5px;
+            color: #fff;
+            border: 0px;
         }
+     
     }
     
-    .btn:hover{
+    .boton:hover{
         background-color: $color-primary;
         color: $color-secondary !important;
     }

@@ -36,20 +36,32 @@
         .card-body{
             color: #fff;
 
-            .btn{
-                width: 100% !important;
-                margin-bottom: 20px;
+            .buton{
+                margin-left: 10px;
+                margin-bottom: 10px;
                 padding: 7px;
                 box-sizing: border-box;
-                font-size: 17px;
+                font-size: 15px;
                 background: $color-primary;
-                border-radius: solid 1px #fff;     
+                border-radius: 10px;     
                 border: 0px ;
+                color: #fff;
+                text-decoration: none;
+                padding-left: 60px;
+                padding-right: 60px;
             }
 
-            .btn:hover{
+            .buton:hover{
                 background-color: $color-primary;
                 color: $color-secondary !important;
+            }
+
+            .btn-secundary{
+                @extend .buton;
+            }
+
+            .btn-secundary-2{
+                @extend.buton;
             }
         }
     }

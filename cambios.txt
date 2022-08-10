@@ -1,0 +1,19 @@
+-mapa:
+    -use un mapa como una paleta de colores 
+    -lo utilize en el _nav.scss la paleta de colores 
+
+-mixin:
+    -cree un mixin con las propiedades de mi card del index
+    - le agregue 2 variables al mixin para cambiar el alto y el margin
+    -cambiando el alto de las cars de los costados y acomodando la del medio mas al centro entre las otras 2
+
+-extend:
+    -utilize extends en mi archivo rutinas.html 
+    -lo utilize con los botones de las cards
+
+-seo:
+    -agregue los keywords y le puse el titulo de la pagina ah todos los html
+    
+
+nota: trate de mejorar el tema del tabulado y los espacios como habia dicho en el anterior desafio 
+puse mas comentarios en los html 

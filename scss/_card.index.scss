@@ -10,18 +10,50 @@
     transform: translate(-50%, -50%);
 
     .carta{
-        width: 350px;
-        margin: 10px;
-        padding: 20px;
-        box-shadow: 20px 20px 50px  rgba(0,0,0,0.5);
-        border-left: 1px solid rgba(246, 244, 244, 0.989);
-        border-top: 1px solid rgba(246, 244, 244, 0.989);
-        border-radius: 15px;
-        background: rgba(255, 255, 255, 0.1 ) ;
-        overflow: hidden;
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+       @include tamaño-card (600px , 1px);
+
+        .cover__carta{
+            width: 100%px;
+            height: 180px;
+            border-radius: 14px;
+            overflow: hidden;
+        }
+    }
+
+  
+    .cover__carta img {
+        width: 100%;
         transition: all 300ms;
+    }
+    
+    .texto__carta{
+        h2{
+            font-size: 22px;
+            font-weight: 400;
+            margin-top: 27px;
+            color: map-get($map: $pallette , $key: texto)
+        }
+        p{
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 300;
+            color: map-get($map: $pallette, $key: texto );
+            letter-spacing: 0.5px;
+            z-index: +1;
+        }
+    }
+   
+    .pie__carta{
+        margin-top: 5px;
+        color: map-get($map: $pallette, $key:texto );
+    
+        .usuario__nombre{
+            font-size: 20px;
+        }
+    }
+
+    .carta-2{
+        @include tamaño-card(450px , 30px);
         
         .cover__carta{
             width: 100%px;
@@ -30,42 +62,15 @@
             overflow: hidden;
         }
     }
-    .cover__carta img {
-        width: 100%;
-        transition: all 300ms;
-    }
-    
-    .carta:hover{
-        transform: translateY(-10px);
-    }
-    .carta:hover .cover__carta img{
-        transform: scale(1.1);
-    }
 
-    .texto__carta{
-        h2{
-            font-size: 22px;
-            font-weight: 400;
-            margin-top: 27px;
-            color: map-get($map: $pallette , $key: primary )
-        }
-        p{
-            margin-top: 20px;
-            font-size: 16px;
-            font-weight: 300;
-            color: #fff;
-            letter-spacing: 0.5px;
-            z-index: +1;
-        }
-    }
-   
-    .pie__carta{
-        margin-top: 5px;
-        color: #fff;
-    
-        .usuario__nombre{
-            font-size: 20px;
-        }
-    }
 
+    .carta-3{
+        @include tamaño-card (600px,1px);
+        .cover__carta{
+            width: 100%px;
+            height: 180px;
+            border-radius: 14px;
+            overflow: hidden;
+        }
+    }
 }
