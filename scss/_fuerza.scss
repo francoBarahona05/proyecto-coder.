@@ -58,11 +58,11 @@
                 color: #fff;
                 border: 1px solid $color-secondary;
                 padding: 10px;
-                
+
+                &:hover{
+                    background: #6d6d6d;
+                } 
             }
-            td:hover{
-                background: #6d6d6d;
-            } 
         }
     }
 }

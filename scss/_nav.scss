@@ -10,14 +10,14 @@
             padding-left: 46px;
             color: #fff;
             height: 65px;
-            transition: .3s linear;            
+            transition: .3s linear;    
+            
+            &:hover{
+                color: map-get($map: $pallette, $key:primary );
+                transform: scale(1.1);
+            }
         }
         
-        .navbar-brand:hover{
-            color: map-get($map: $pallette, $key:primary );
-            transform: scale(1.1);
-        }
-
         .navbar-toggler{
             background-color: map-get($map: $pallette, $key:primary );
         }
@@ -34,12 +34,12 @@
             .nav-link{
                 transition: .3s linear;
                 color: #fff;
-            }
 
-            .nav-link:hover{
-                color: map-get($map: $pallette, $key:primary );
-                transform: scale(1.1);
-            }    
+                &:hover{
+                    color: map-get($map: $pallette, $key:primary );
+                    transform: scale(1.1);
+                } 
+            }   
         }       
     }
 }

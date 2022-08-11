@@ -1,5 +1,4 @@
 .header__index{
-
     .transition_1{
         width: 100%;
         color:#fff;
@@ -10,12 +9,14 @@
         margin-top: 200px;
         z-index: +1;
        
-        .transition__2 h1{
-            font-size: 70px;
-            color: #fff;
-            animation: subtitulo;
-            animation-duration: 1s;
-            font-weight: 900;
+        .transition__2{
+            h1{
+                font-size: 70px;
+                color: #fff;
+                animation: subtitulo;
+                animation-duration: 1s;
+                font-weight: 900;
+            }
     
             @keyframes subtitulo {
                 0%{
@@ -27,24 +28,26 @@
             }
         }
         
-        .transition__3 h2{
-            font-size: 70px;
-            color: $color-primary;
-            animation: subtitulo2;
-            animation-duration: 1s;
-            font-weight: 800;
-        }
-        
-        @keyframes subtitulo2{
-            0%{
-                transform: translatex(-800px) ;
+        .transition__3{
+            h2{
+                font-size: 70px;
+                color: $color-primary;
+                animation: subtitulo2;
+                animation-duration: 1s;
+                font-weight: 800;
             }
-            100%{
-                transform: translate(0);
-            }
-        }
 
+            @keyframes subtitulo2{
+                0%{
+                    transform: translatex(-800px) ;
+                }
+                100%{
+                    transform: translate(0);
+                }
+            }
+        }
     }
+
     .header__img{
         width: 100%;
         background: linear-gradient(#0ea1e6 , #c7371e);

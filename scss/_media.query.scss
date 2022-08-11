@@ -1,9 +1,7 @@
 @media screen and (min-width:1700px) {
-   
+   /*nav*/
     .navbar{
-
         .container-fluid{
-
             .navbar-brand{
                margin-bottom: 40px;
                font-size: 35px;
@@ -14,29 +12,19 @@
                 padding-left: 330px;
                 height: 100px;
                
-                
                 .nav-item{
-    
                     .nav-link{
-    
                         font-size: 35px;
                         font-weight: 600;
     
                     }
                 }
             }
-        
         }
-
-
     }
     
-   
-
-
+   /*header*/
     .header__index{
-
-
         .transition_1{
             width: 100%;
             color: #fff;
@@ -48,14 +36,11 @@
             z-index: +1;
            
             .transition__2{
-
                 h1{
-
                     font-size: 130px;
                     margin-top: 230px;
                     color: #fff;
-                    font-weight: 900;
-                    
+                    font-weight: 900; 
                 }
 
                 @keyframes subtitulo{
@@ -63,48 +48,35 @@
                         transform: translatey(-180px);
                     }
                 }
-
             }
 
             .transition__3{
-
-                h2{
-                             
+                h2{  
                     font-size: 130px;
                     font-weight: 800;
                 }
                     
-                @keyframes subtitulo2{
-                    
+                @keyframes subtitulo2{ 
                     0%{
                         transform: translatex(-1400px) ;
                     }
                 }             
-
-                
             }
-
-            
         }
-
     }
-    
+    /*card index*/
     .contenedor__carta{
         margin-top: 1100px;
 
         .carta{
             margin: 0 105px 0 105px;
         }
-
-
     }
-
+    /*triangulos index*/
     .triangulo{
         display: none;
     }
     
-
-
     /*---rutinas---*/
     .container-1{
         width: 99%;
@@ -115,23 +87,17 @@
         
         .card{
             margin: auto;
-    
         }
-
-
     }
-
-
-
+     
+    /*contacto html*/
     .contactanos{
         width: 40%; 
         margin-top: 220px;
         margin-bottom: 220px;   
-            
-                     
+               
         .form__titulo{
             font-size: 80px;
-            
         }
         
         div{
@@ -139,25 +105,19 @@
                 padding-top: 5px;
                 font-size: 40px;
             }
-
         }
-
-        
     }
 
    
-   
+   /*registrarme html*/
     .form{
-
         width: 40%;
         margin-top: 250px;
         margin-bottom: 240px;
         
         .form__contenedor{
-
             .form__titulo{
                 font-size: 80px;
-                
             }
     
             div{
@@ -168,37 +128,27 @@
                     padding-top: 5px;
                     font-size: 40px;
                 }
-    
             }
-
         }
-   
     }
-
 }
-
 
 
 @media screen and (max-width:1200px) {
     /*---index---*/
-
     .container-fluid{
-
         a{
             margin-left: -5px;
-
         }
 
         .navbar-nav{
             margin-left: 170px;
         }
-        
     }
 
     
-
+    /*triangulo index*/
     .contenedor__triangulo{
-        
         left: 320px;
    
         .triangulo{
@@ -213,9 +163,9 @@
             width: 200px;
             height: 200px;
         }
-
     }
-
+     
+    /*card index*/
     .contenedor__carta{
         margin-top: 750px;
 
@@ -224,6 +174,7 @@
         }
     }
     
+    /*rutinas*/
     .container-1{
         width: 97%;
     }
@@ -239,8 +190,8 @@
         }
     }
     
+    /*¨header index*/
     .header__index{
-
         .transition_1{
             width: 100%;
             color: #fff;
@@ -251,7 +202,6 @@
             margin-top: 200px;
             
             .transition__2{
-
                 h1{
                     font-size: 55px;
                     margin-top: -40px;
@@ -259,30 +209,22 @@
             }
 
             .transition__3{
-
                 h2{
                     font-size: 55px;
                     margin-top: -14px;
                 }
             }
-
         } 
-
     }
-   
-    
-
+     
+    /*nav*/
     .container-fluid{
-
         .navbar-nav{
             margin-left:0px;
         }    
-
     }
     
-    
-
-   
+    /*card index*/
     .contenedor__carta{
         position: relative;
         margin-top: 500px;       
@@ -290,7 +232,6 @@
         flex-direction: column;
 
         .carta{
-        
             margin-top: 30px;
             margin-bottom: 30px;
             width: 98%;
@@ -306,7 +247,6 @@
                     width: 100%;
                     transition: all 300ms;
                 }
-        
             }
 
             .texto__carta {
@@ -321,25 +261,21 @@
                     padding-left:20px ;
                     margin-top: 20px;
                 }
-
             }
 
             .pie__carta{
                 position: absolute;
                 padding-top: 500px;
             }
-
         }
-       
-    
     }
- 
-
-    /*---fin carta---*/
-
+    
+    /*formulario registrarme html*/
     .form{
         margin-bottom: 400px;
     }
+
+    /*formulario contacto html*/
     .contactanos{
         margin-bottom: 400px;
     }
@@ -359,21 +295,11 @@
             .footer__box--1{
                 padding-left: 15px;
             }
-        }
+        }    
+    }
     
-    }
-      
-    .contenedor__carta--rutinas{
-        margin-top: 500px;
-    }
-
-   
-    /*---fin footer---*/
-
-
-    /*---rutinas---*/
-    .container-1{
-       
+    /*---rutinas fuerza---*/
+    .container-1{ 
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -384,15 +310,15 @@
             width: 350px;
         }
     }
+
+    /* rutina fuerza*/
     main{
         margin-bottom: 450px;
 
         .row{
-
             .rutina__torso-hipertrofia{
                 padding-left:100px ;
             }
-    
         }
         table{  
             margin-left: 1px;
@@ -418,39 +344,29 @@
                 }
             }
         }
-
     }
    
-   
+   /*triangulos index*/
    .contenedor__triangulo{
        width: 5%;
        margin-left: 0;
        margin-top: -80px ;
    }
  
-
     .header__index{
-
         .transition_1{
-
             .transition__2 {
-
                h1{
                    font-size: 35px;
                    margin-top: -120px;
-
                 }
-            
             }
 
             .transition__3 {
-
                 h2{
-
                     font-size: 35px;
                     margin-top: -90px;
                 }
-                
             }
         }
     }
@@ -459,6 +375,8 @@
     .container-1{
        margin-bottom: 500px;
     }  
+
+    /*pie de pagina*/
     .footer{
         margin-top: -400px;
         margin-bottom: 0px;
@@ -474,7 +392,6 @@
             .footer__box--3{
                margin-top: 0;
                grid-area: section1;
-           
             }
 
             .footer__box--4{
@@ -485,11 +402,8 @@
             .footer__box{
                 grid-area: section3;
             }
-
         }
     }  
-
-  /*---fin index---*/
 
   /*---contacto---*/
 
@@ -498,33 +412,24 @@
 
         .form{
             width: 80%;
- 
         }
     }
-   /*registrare*/
 
+   /*registrare*/
     .form{
         width: 80%;
     }
 
-
-   /*---fin---*/
-
    /*---rutina.fuerza---*/
-
     .container{
-
         .container-articulo{
-
             .article__img{
-
                 img{
                    margin-top: 250px;
                 }
             }
 
             .article--2{
-
                 p{
                     margin-left: 0;
                     max-width: 100%;
@@ -532,23 +437,19 @@
             }
 
             .article{
-
                 p{
                     padding-left: 0;
                 }
             }
             
             table{
-
                 margin:0;
         
                 tr{
                    padding-left: 0;
                 }
             }
-
         }
     }
-
    /*---fin---*/
 }

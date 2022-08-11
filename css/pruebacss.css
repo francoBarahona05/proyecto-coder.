@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar {
   background-color: black !important; }
   .navbar .container-fluid {
@@ -9,9 +10,9 @@
       color: #fff;
       height: 65px;
       transition: .3s linear; }
-    .navbar .container-fluid .navbar-brand:hover {
-      color: #d63138;
-      transform: scale(1.1); }
+      .navbar .container-fluid .navbar-brand:hover {
+        color: #d63138;
+        transform: scale(1.1); }
     .navbar .container-fluid .navbar-toggler {
       background-color: #d63138; }
   .navbar .navbar-nav {
@@ -22,9 +23,9 @@
       .navbar .navbar-nav .nav-item .nav-link {
         transition: .3s linear;
         color: #fff; }
-      .navbar .navbar-nav .nav-item .nav-link:hover {
-        color: #d63138;
-        transform: scale(1.1); }
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+          color: #d63138;
+          transform: scale(1.1); }
 
 .bod1 {
   background-color: #212025; }
@@ -249,9 +250,9 @@
         text-decoration: none;
         padding-left: 60px;
         padding-right: 60px; }
-      .container-1 .card .card-body .buton:hover, .container-1 .card .card-body .btn-secundary:hover, .container-1 .card .card-body .btn-secundary-2:hover {
-        background-color: #d63138;
-        color: black !important; }
+        .container-1 .card .card-body .buton:hover, .container-1 .card .card-body .btn-secundary:hover, .container-1 .card .card-body .btn-secundary-2:hover {
+          background-color: #d63138;
+          color: black !important; }
 
 .form {
   margin: auto;
@@ -422,10 +423,11 @@
     color: #fff;
     border: 1px solid black;
     padding: 10px; }
-  .container table tr td:hover {
-    background: #6d6d6d; }
+    .container table tr td:hover {
+      background: #6d6d6d; }
 
 @media screen and (min-width: 1700px) {
+  /*nav*/
   .navbar .container-fluid .navbar-brand {
     margin-bottom: 40px;
     font-size: 35px;
@@ -436,6 +438,7 @@
     .navbar .container-fluid .navbar-nav .nav-item .nav-link {
       font-size: 35px;
       font-weight: 600; }
+  /*header*/
   .header__index .transition_1 {
     width: 100%;
     color: #fff;
@@ -459,10 +462,12 @@
   @keyframes subtitulo2 {
     0% {
       transform: translatex(-1400px); } }
+  /*card index*/
   .contenedor__carta {
     margin-top: 1100px; }
     .contenedor__carta .carta {
       margin: 0 105px 0 105px; }
+  /*triangulos index*/
   .triangulo {
     display: none; }
   /*---rutinas---*/
@@ -474,6 +479,7 @@
     margin-bottom: 270px; }
     .container-1 .card {
       margin: auto; }
+  /*contacto html*/
   .contactanos {
     width: 40%;
     margin-top: 220px;
@@ -483,6 +489,7 @@
     .contactanos div .btn {
       padding-top: 5px;
       font-size: 40px; }
+  /*registrarme html*/
   .form {
     width: 40%;
     margin-top: 250px;
@@ -501,6 +508,7 @@
     margin-left: -5px; }
   .container-fluid .navbar-nav {
     margin-left: 170px; }
+  /*triangulo index*/
   .contenedor__triangulo {
     left: 320px; }
     .contenedor__triangulo .triangulo {
@@ -512,10 +520,12 @@
     .contenedor__triangulo .triangulo1 {
       width: 200px;
       height: 200px; }
+  /*card index*/
   .contenedor__carta {
     margin-top: 750px; }
     .contenedor__carta .carta {
       width: 280px; }
+  /*rutinas*/
   .container-1 {
     width: 97%; } }
 
@@ -525,6 +535,7 @@
     margin-top: -150px; }
     .contenedor__triangulo .triangulo {
       display: none; }
+  /*¨header index*/
   .header__index .transition_1 {
     width: 100%;
     color: #fff;
@@ -539,8 +550,10 @@
     .header__index .transition_1 .transition__3 h2 {
       font-size: 55px;
       margin-top: -14px; }
+  /*nav*/
   .container-fluid .navbar-nav {
     margin-left: 0px; }
+  /*card index*/
   .contenedor__carta {
     position: relative;
     margin-top: 500px;
@@ -569,9 +582,10 @@
       .contenedor__carta .carta .pie__carta {
         position: absolute;
         padding-top: 500px; }
-  /*---fin carta---*/
+  /*formulario registrarme html*/
   .form {
     margin-bottom: 400px; }
+  /*formulario contacto html*/
   .contactanos {
     margin-bottom: 400px; }
   /*---footer---*/
@@ -584,10 +598,7 @@
       margin-top: 0px; }
       .footer .footer__box--4 .footer__box--1 {
         padding-left: 15px; }
-  .contenedor__carta--rutinas {
-    margin-top: 500px; }
-  /*---fin footer---*/
-  /*---rutinas---*/
+  /*---rutinas fuerza---*/
   .container-1 {
     width: 90%;
     display: flex;
@@ -596,6 +607,7 @@
     padding-top: 0; }
     .container-1 .card {
       width: 350px; }
+  /* rutina fuerza*/
   main {
     margin-bottom: 450px; }
     main .row .rutina__torso-hipertrofia {
@@ -610,6 +622,7 @@
     margin-top: 380px; }
     .contenedor__carta .carta .texto__carta p {
       font-size: 13px; }
+  /*triangulos index*/
   .contenedor__triangulo {
     width: 5%;
     margin-left: 0;
@@ -623,6 +636,7 @@
   /*rutinas*/
   .container-1 {
     margin-bottom: 500px; }
+  /*pie de pagina*/
   .footer {
     margin-top: -400px;
     margin-bottom: 0px; }
@@ -638,7 +652,6 @@
         grid-area: section2; }
       .footer .footer__pagina .footer__box {
         grid-area: section3; }
-  /*---fin index---*/
   /*---contacto---*/
   .contactanos {
     width: 80%; }
@@ -647,7 +660,6 @@
   /*registrare*/
   .form {
     width: 80%; }
-  /*---fin---*/
   /*---rutina.fuerza---*/
   .container .container-articulo .article__img img {
     margin-top: 250px; }
