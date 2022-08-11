@@ -130,9 +130,7 @@
     overflow: hidden;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    transition: all 300ms;
-    height: 600px;
-    margin-top: 1px; }
+    transition: all 300ms; }
     .contenedor__carta .carta .cover__carta {
       width: 100%px;
       height: 180px;
@@ -141,6 +139,10 @@
   .contenedor__carta .cover__carta img {
     width: 100%;
     transition: all 300ms; }
+  .contenedor__carta .carta:hover {
+    transform: translateY(-10px); }
+  .contenedor__carta .carta:hover .cover__carta img {
+    transform: scale(1.1); }
   .contenedor__carta .texto__carta h2 {
     font-size: 22px;
     font-weight: 400;
@@ -158,46 +160,6 @@
     color: #fff; }
     .contenedor__carta .pie__carta .usuario__nombre {
       font-size: 20px; }
-  .contenedor__carta .carta-2 {
-    width: 350px;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(246, 244, 244, 0.989);
-    border-top: 1px solid rgba(246, 244, 244, 0.989);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    transition: all 300ms;
-    height: 450px;
-    margin-top: 30px; }
-    .contenedor__carta .carta-2 .cover__carta {
-      width: 100%px;
-      height: 180px;
-      border-radius: 14px;
-      overflow: hidden; }
-  .contenedor__carta .carta-3 {
-    width: 350px;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(246, 244, 244, 0.989);
-    border-top: 1px solid rgba(246, 244, 244, 0.989);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    transition: all 300ms;
-    height: 600px;
-    margin-top: 1px; }
-    .contenedor__carta .carta-3 .cover__carta {
-      width: 100%px;
-      height: 180px;
-      border-radius: 14px;
-      overflow: hidden; }
 
 .footer {
   margin-top: 100px;
@@ -319,7 +281,7 @@
         padding: 10px;
         border: none;
         outline: none; }
-  .form div .boton {
+  .form div .btn {
     width: 100% !important;
     margin-bottom: 20px;
     padding: 7px;
@@ -329,6 +291,9 @@
     border-radius: 5px;
     color: #fff;
     border: 0px; }
+    .form div .btn:hover {
+      background-color: #d63138;
+      color: black !important; }
   .form div .form__reg--text {
     text-align: center;
     color: #fff; }
@@ -362,7 +327,7 @@
     min-width: 100%;
     max-width: 100%;
     max-height: 100px; }
-  .contactanos div .boton-contacto {
+  .contactanos div .btn {
     width: 100% !important;
     margin-bottom: 20px;
     padding: 7px;
@@ -372,9 +337,9 @@
     border-radius: 5px;
     color: #fff;
     border: 0px; }
-  .contactanos .boton:hover {
-    background-color: #d63138;
-    color: black !important; }
+    .contactanos div .btn:hover {
+      background-color: #d63138;
+      color: black !important; }
 
 .container .titulo__torso-pierna {
   font-size: 40px;
@@ -578,7 +543,7 @@
     margin-left: 0px; }
   .contenedor__carta {
     position: relative;
-    margin-top: 0px;
+    margin-top: 500px;
     display: flex;
     flex-direction: column; }
     .contenedor__carta .carta {
@@ -605,10 +570,14 @@
         position: absolute;
         padding-top: 500px; }
   /*---fin carta---*/
+  .form {
+    margin-bottom: 400px; }
+  .contactanos {
+    margin-bottom: 400px; }
   /*---footer---*/
   .footer {
-    margin-top: 100px;
-    margin-bottom: -1300px; }
+    margin-top: -350px;
+    margin-bottom: 0; }
     .footer .footer__box {
       margin-top: -30px; }
     .footer .footer__box--4 {
@@ -627,16 +596,20 @@
     padding-top: 0; }
     .container-1 .card {
       width: 350px; }
-  .row .rutina__torso-hipertrofia {
-    padding-left: 100px; }
-  table {
-    margin-left: 1px; }
+  main {
+    margin-bottom: 450px; }
+    main .row .rutina__torso-hipertrofia {
+      padding-left: 100px; }
+    main table {
+      margin-left: 1px; }
   /*---fin rutinas--*/ }
 
 @media screen and (max-width: 700px) {
   /*---index---*/
-  .carta .texto__carta p {
-    font-size: 13px; }
+  .contenedor__carta {
+    margin-top: 380px; }
+    .contenedor__carta .carta .texto__carta p {
+      font-size: 13px; }
   .contenedor__triangulo {
     width: 5%;
     margin-left: 0;
@@ -647,18 +620,24 @@
   .header__index .transition_1 .transition__3 h2 {
     font-size: 35px;
     margin-top: -90px; }
-  .footer .footer__pagina {
-    height: 100%;
-    display: grid;
-    grid-template-areas: "section2 section2" "section1 section3"; }
-    .footer .footer__pagina .footer__box--3 {
-      margin-top: 0;
-      grid-area: section1; }
-    .footer .footer__pagina .footer__box--4 {
-      margin-top: 0;
-      grid-area: section2; }
-    .footer .footer__pagina .footer__box {
-      grid-area: section3; }
+  /*rutinas*/
+  .container-1 {
+    margin-bottom: 500px; }
+  .footer {
+    margin-top: -400px;
+    margin-bottom: 0px; }
+    .footer .footer__pagina {
+      height: 100%;
+      display: grid;
+      grid-template-areas: "section2 section2" "section1 section3"; }
+      .footer .footer__pagina .footer__box--3 {
+        margin-top: 0;
+        grid-area: section1; }
+      .footer .footer__pagina .footer__box--4 {
+        margin-top: 0;
+        grid-area: section2; }
+      .footer .footer__pagina .footer__box {
+        grid-area: section3; }
   /*---fin index---*/
   /*---contacto---*/
   .contactanos {

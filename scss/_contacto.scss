@@ -37,7 +37,7 @@
     }
         
     div{
-        .boton-contacto{
+        .btn{
             width: 100% !important;
             margin-bottom: 20px;
             padding: 7px;
@@ -47,12 +47,15 @@
             border-radius: 5px;
             color: #fff;
             border: 0px;
+
+            &:hover{
+                background-color: $color-primary;
+                color: $color-secondary !important;
+            }
         }
+
      
     }
     
-    .boton:hover{
-        background-color: $color-primary;
-        color: $color-secondary !important;
-    }
+
 }

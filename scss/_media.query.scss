@@ -285,7 +285,7 @@
    
     .contenedor__carta{
         position: relative;
-        margin-top: 0px;       
+        margin-top: 500px;       
         display: flex;
         flex-direction: column;
 
@@ -337,10 +337,17 @@
 
     /*---fin carta---*/
 
+    .form{
+        margin-bottom: 400px;
+    }
+    .contactanos{
+        margin-bottom: 400px;
+    }
+
     /*---footer---*/
     .footer{
-        margin-top: 100px;
-        margin-bottom: -1300px;
+        margin-top: -350px;
+        margin-bottom: 0;
 
         .footer__box{
             margin-top: -30px;
@@ -365,9 +372,6 @@
 
 
     /*---rutinas---*/
-
-    
-
     .container-1{
        
         width: 90%;
@@ -380,19 +384,21 @@
             width: 350px;
         }
     }
+    main{
+        margin-bottom: 450px;
 
-    .row{
+        .row{
 
-        .rutina__torso-hipertrofia{
-            padding-left:100px ;
+            .rutina__torso-hipertrofia{
+                padding-left:100px ;
+            }
+    
         }
-
+        table{  
+            margin-left: 1px;
+        }
     }
 
-
-    table{  
-        margin-left: 1px;
-    }
     /*---fin rutinas--*/
     ;
 }
@@ -400,16 +406,21 @@
 
 @media screen and (max-width:700px) {
     /*---index---*/
+    .contenedor__carta{
+        margin-top: 380px;
 
-    .carta{
+        .carta{
 
-        .texto__carta {
-
-            p{
-                font-size: 13px;
+            .texto__carta {
+    
+                p{
+                    font-size: 13px;
+                }
             }
         }
+
     }
+   
    
    .contenedor__triangulo{
        width: 5%;
@@ -444,8 +455,13 @@
         }
     }
   
-     
+     /*rutinas*/
+    .container-1{
+       margin-bottom: 500px;
+    }  
     .footer{
+        margin-top: -400px;
+        margin-bottom: 0px;
 
         .footer__pagina{
             height: 100%;
@@ -535,7 +551,4 @@
     }
 
    /*---fin---*/
-
-
-
 }
