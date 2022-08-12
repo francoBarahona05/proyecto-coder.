@@ -1,0 +1,16 @@
+.button{
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background: $color-primary;
+    border-radius: 5px;
+    color: map-get($map:$pallette , $key: texto );
+    border: 0px;
+}
+
+.button.h:hover{
+    background-color: map-get($map: $pallette, $key:primary );
+    color: map-get($map: $pallette , $key:secondary );
+}

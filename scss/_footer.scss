@@ -23,7 +23,7 @@
             grid-area: section2;
 
             .footer__box--1{
-                color: #fff;
+                color: map-get($map: $pallette, $key:texto );
                 margin-top: 10px;                
             }
         }
@@ -43,7 +43,7 @@
                     width: 45px;
                     height: 45px;
                     line-height: 45px;
-                    color: #fff;
+                    color: map-get($map: $pallette, $key:texto );
                     margin-right: 10px;
                     background-color: hsla(0, 2%, 9%, 0.987);
                     text-align: center;

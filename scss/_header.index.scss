@@ -1,7 +1,7 @@
 .header__index{
     .transition_1{
         width: 100%;
-        color:#fff;
+        color: map-get($map: $pallette, $key:texto );
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -12,7 +12,7 @@
         .transition__2{
             h1{
                 font-size: 70px;
-                color: #fff;
+                color: map-get($map: $pallette, $key:texto );
                 animation: subtitulo;
                 animation-duration: 1s;
                 font-weight: 900;

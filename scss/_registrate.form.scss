@@ -11,7 +11,7 @@
 
         .form__titulo{
            text-align: center;
-           color: #fff;
+           color: map-get($map: $pallette , $key: titulos );
            font-size: 40px;
            margin-bottom: 10px;
         }
@@ -19,7 +19,7 @@
         .form__reg{
             margin-bottom: 15px;
             border: 1px solid #aaa;
-            background-color: #fff;
+            background-color: map-get($map: $pallette , $key:texto );
 
             i{
                 min-width: 50px;
@@ -39,31 +39,23 @@
 
     div{
         .btn{
-            width: 100% !important;
-            margin-bottom: 20px;
-            padding: 7px;
-            box-sizing: border-box;
-            font-size: 17px;
-            background: $color-primary;
-            border-radius: 5px;
-            color: #fff;
-            border: 0px;
-
-            &:hover{
-                background-color: $color-primary;
-                color: $color-secondary !important;
-            }
+            @extend .button;
+            @extend .button.h;
         }
 
        
 
         .form__reg--text{
             text-align: center;
-            color: #fff;
+            color: map-get($map: $pallette , $key:texto );
 
             .link{
-                color: #fff;
-                font-weight: 600;    
+                color: map-get($map: $pallette , $key:texto );
+                font-weight: 600;  
+                
+                &:hover{
+                    color: map-get($map: $pallette , $key:primary )
+                }
             }
         }
     }

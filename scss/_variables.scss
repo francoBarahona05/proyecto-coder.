@@ -1,10 +1,16 @@
 $color-primary:#d63138;
 $color-secondary:black;
-$texto:#fff;
+
 
 $pallette: (
+    /*colores que predominan y ocupan mas espacios en los html*/
     primary:#d63138,
     secondary: black,
+    /*color de los textos*/
     texto:#fff,
     bod: #212025,
+    /*titulos*/
+    titulos:#fff,
+    /*fondo card rutinas.html*/
+    fondo_card: black,
 );

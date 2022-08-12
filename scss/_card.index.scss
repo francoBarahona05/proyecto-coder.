@@ -48,7 +48,7 @@
             font-size: 22px;
             font-weight: 400;
             margin-top: 27px;
-            color: map-get($map: $pallette , $key: texto)
+            color: map-get($map: $pallette , $key: titulos)
         }
         p{
             margin-top: 20px;
