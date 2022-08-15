@@ -167,7 +167,7 @@
      
     /*card index*/
     .contenedor__carta{
-        margin-top: 750px;
+        margin-top: -650px;
 
         .carta{
             width: 280px;
@@ -227,7 +227,7 @@
     /*card index*/
     .contenedor__carta{
         position: relative;
-        margin-top: 500px;       
+        margin-top: 70px;       
         display: flex;
         flex-direction: column;
 
@@ -272,17 +272,17 @@
     
     /*formulario registrarme html*/
     .form{
-        margin-bottom: 400px;
+        margin-bottom: 100px;
     }
 
     /*formulario contacto html*/
     .contactanos{
-        margin-bottom: 400px;
+        margin-bottom: 100px;
     }
 
     /*---footer---*/
     .footer{
-        margin-top: -350px;
+        margin-top: 0px;
         margin-bottom: 0;
 
         .footer__box{
@@ -297,7 +297,14 @@
             }
         }    
     }
-    
+    .container-1{
+        margin-top: 100px;
+
+        .card{
+            margin-top:0;
+            margin-bottom: 50px;
+        }
+    }
     /*---rutinas fuerza---*/
     .container-1{ 
         width: 90%;
@@ -333,7 +340,7 @@
 @media screen and (max-width:700px) {
     /*---index---*/
     .contenedor__carta{
-        margin-top: 380px;
+        margin-top: 0px;
 
         .carta{
 
@@ -378,7 +385,7 @@
 
     /*pie de pagina*/
     .footer{
-        margin-top: -400px;
+        margin-top: 0;
         margin-bottom: 0px;
 
         .footer__pagina{

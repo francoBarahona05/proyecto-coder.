@@ -1,6 +1,6 @@
 @charset "UTF-8";
-.button, .form div .btn, .contactanos div .btn {
-  width: 100% !important;
+.button, .container-1 .card .card-body .btn, .form div .btn, .contactanos div .btn {
+  width: 100%;
   margin-bottom: 20px;
   padding: 7px;
   box-sizing: border-box;
@@ -10,9 +10,26 @@
   color: #fff;
   border: 0px; }
 
-.button.h:hover, .form div .btn:hover, .contactanos div .btn:hover {
+.button.h:hover, .container-1 .card .card-body .h.btn:hover, .form div .btn:hover, .contactanos div .btn:hover {
   background-color: #d63138;
   color: black; }
+
+.card.index, .contenedor__carta .carta, .container-1 .card {
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(246, 244, 244, 0.989);
+  border-top: 1px solid rgba(246, 244, 244, 0.989);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms; }
+
+.carta.h:hover .cover__carta img, .contenedor__carta .carta:hover .cover__carta img {
+  transform: scale(1.1); }
 
 .navbar {
   background-color: black !important; }
@@ -91,7 +108,8 @@
   position: relative;
   left: 400px;
   transform: translate(-50%, -50%);
-  margin-top: 650px; }
+  margin-top: 610px;
+  margin-bottom: -100px; }
   .contenedor__triangulo .triangulo {
     margin-left: 500px;
     margin-top: -450px;
@@ -125,40 +143,24 @@
     transform: rotate(45dg) translate(0px); } }
 
 .contenedor__carta {
-  margin-top: 880px;
+  margin-top: -650px;
   width: 100%;
   display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  position: absolute; }
   .contenedor__carta .carta {
-    width: 350px;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(246, 244, 244, 0.989);
-    border-top: 1px solid rgba(246, 244, 244, 0.989);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    transition: all 300ms; }
+    margin: auto; }
+    .contenedor__carta .carta:hover {
+      transform: translateY(-10px); }
     .contenedor__carta .carta .cover__carta {
       width: 100%px;
       height: 180px;
       border-radius: 14px;
       overflow: hidden; }
-  .contenedor__carta .cover__carta img {
-    width: 100%;
-    transition: all 300ms; }
-  .contenedor__carta .carta:hover {
-    transform: translateY(-10px); }
-  .contenedor__carta .carta:hover .cover__carta img {
-    transform: scale(1.1); }
+      .contenedor__carta .carta .cover__carta img {
+        width: 100%;
+        transition: all 300ms; }
   .contenedor__carta .texto__carta h2 {
     font-size: 22px;
     font-weight: 400;
@@ -178,7 +180,6 @@
       font-size: 20px; }
 
 .footer {
-  margin-top: 100px;
   width: 100%;
   background-color: black; }
   .footer .footer__pagina {
@@ -242,30 +243,17 @@
   justify-content: space-between;
   margin: auto; }
   .container-1 .card {
-    width: 350px;
+    background-color: black;
     margin: 0;
-    padding: 20px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(246, 244, 244, 0.989);
-    border-top: 1px solid rgba(246, 244, 244, 0.989);
-    border-radius: 15px;
-    background: black; }
+    margin-bottom: 100px;
+    margin-top: 100px; }
     .container-1 .card .card-body {
       color: #fff; }
-      .container-1 .card .card-body .buton, .container-1 .card .card-body .btn-secundary, .container-1 .card .card-body .btn-secundary-2 {
-        margin-left: 10px;
-        margin-bottom: 10px;
-        padding: 7px;
-        box-sizing: border-box;
-        font-size: 15px;
-        background: #d63138;
-        border-radius: 10px;
-        border: 0px;
-        color: #fff;
-        text-decoration: none;
-        padding-left: 60px;
-        padding-right: 60px; }
-        .container-1 .card .card-body .buton:hover, .container-1 .card .card-body .btn-secundary:hover, .container-1 .card .card-body .btn-secundary-2:hover {
+      .container-1 .card .card-body .btn {
+        margin-bottom: 0;
+        width: 80%;
+        margin-left: 15px; }
+        .container-1 .card .card-body .btn:hover {
           background-color: #d63138;
           color: black !important; }
 
@@ -350,7 +338,7 @@
 
 .container .rutina__torso-fuerza .rutina__torso--1 {
   padding-top: 40px;
-  padding-left: 130px; }
+  padding-left: 300px; }
 
 .container .rutina__torso-fuerza .lista li {
   list-style: none; }
@@ -513,7 +501,7 @@
       height: 200px; }
   /*card index*/
   .contenedor__carta {
-    margin-top: 750px; }
+    margin-top: -650px; }
     .contenedor__carta .carta {
       width: 280px; }
   /*rutinas*/
@@ -547,7 +535,7 @@
   /*card index*/
   .contenedor__carta {
     position: relative;
-    margin-top: 500px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column; }
     .contenedor__carta .carta {
@@ -575,13 +563,13 @@
         padding-top: 500px; }
   /*formulario registrarme html*/
   .form {
-    margin-bottom: 400px; }
+    margin-bottom: 100px; }
   /*formulario contacto html*/
   .contactanos {
-    margin-bottom: 400px; }
+    margin-bottom: 100px; }
   /*---footer---*/
   .footer {
-    margin-top: -350px;
+    margin-top: 0px;
     margin-bottom: 0; }
     .footer .footer__box {
       margin-top: -30px; }
@@ -589,6 +577,11 @@
       margin-top: 0px; }
       .footer .footer__box--4 .footer__box--1 {
         padding-left: 15px; }
+  .container-1 {
+    margin-top: 100px; }
+    .container-1 .card {
+      margin-top: 0;
+      margin-bottom: 50px; }
   /*---rutinas fuerza---*/
   .container-1 {
     width: 90%;
@@ -610,7 +603,7 @@
 @media screen and (max-width: 700px) {
   /*---index---*/
   .contenedor__carta {
-    margin-top: 380px; }
+    margin-top: 0px; }
     .contenedor__carta .carta .texto__carta p {
       font-size: 13px; }
   /*triangulos index*/
@@ -629,7 +622,7 @@
     margin-bottom: 500px; }
   /*pie de pagina*/
   .footer {
-    margin-top: -400px;
+    margin-top: 0;
     margin-bottom: 0px; }
     .footer .footer__pagina {
       height: 100%;
