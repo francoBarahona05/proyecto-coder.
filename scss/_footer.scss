@@ -1,7 +1,7 @@
 .footer{
 
     width: 100%;
-    background-color: $color-secondary ;
+    background-color: map-get($map: $pallette, $key:secondary) ;
 
     .footer__pagina{
         width: 100%;
@@ -30,7 +30,7 @@
 
         .footer__box{
             grid-area: section3;
-            color: $color-primary;
+            color: map-get($map: $pallette, $key:primary );
             margin-bottom: 15px;
             font-size:  20px;
             text-align: center;
@@ -53,7 +53,7 @@
     }
 
     .footer__derechos{
-        color: $color-primary;
+        color: map-get($map: $pallette, $key:primary );
         width: 100%;
         text-align: center;
         background-color:  hsla(0, 2%, 9%, 0.987);

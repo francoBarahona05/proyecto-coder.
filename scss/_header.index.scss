@@ -31,7 +31,7 @@
         .transition__3{
             h2{
                 font-size: 70px;
-                color: $color-primary;
+                color: map-get($map: $pallette, $key:primary );
                 animation: subtitulo2;
                 animation-duration: 1s;
                 font-weight: 800;

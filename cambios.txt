@@ -1,19 +1,36 @@
+*esta ves le di un uso mas logico ah el uso de extend , mixin y el mapa
+
 -mapa:
-    -use un mapa como una paleta de colores 
-    -lo utilize en el _nav.scss la paleta de colores 
+    -cree un mapa como una paleta de colores  
+    -lo use para diferenciar los colores que predominan , los textos , titulos.
+
+-extend:
+    -agregue 4 extend
+    - boton que reutilizo en rutinas.html , contacto.html , registrarse.html 
+    - el hover para estos mismos botones 
+    - los valores de una card que reutilizo en el index y en rutinas.html
 
 -mixin:
     -cree un mixin con las propiedades de mi card del index
-    - le agregue 2 variables al mixin para cambiar el alto y el margin
-    -cambiando el alto de las cars de los costados y acomodando la del medio mas al centro entre las otras 2
-
--extend:
-    -utilize extends en mi archivo rutinas.html 
-    -lo utilize con los botones de las cards
+    - le agregue 3 variables para cambiar el color y el margen para reutilizarlo en la pagina rutinas html
+    - tambien agregue otro mixin con los botones que comparto con contacto.html y registrarse.html para usarlo 
+      en los botones de las card de rutinas.html con su cambios
+    - agregue extend dentro de los mixin
 
 -seo:
     -agregue los keywords y le puse el titulo de la pagina ah todos los html
+
+-operadores
+  -utilize operadores en _card.index.scss y en _contacto.scss (no le encontre mucha utilidad pero los agregue igual)
+
+-bootstrap
+ -lo utilize en las card de rutinas.html , en el carrusel del header del index y use el sistema de grillas en torso.pierna.html 
+ use sus clase "btn" para algunos botones que  se me hizo mas rapido darle estilo
+ tambien use su naveegador amburguesa , para mobile 
     
 
 nota: trate de mejorar el tema del tabulado y los espacios como habia dicho en el anterior desafio 
-puse mas comentarios en los html 
+puse mas comentarios en los html Y agregue contenido a los atributos "ALT" de las imagenes que no lo 
+habia corregido 
+
+saludo grande angelica!! gracias por acompañarme! (:

@@ -162,7 +162,7 @@
         width: 100%;
         transition: all 300ms; }
   .contenedor__carta .texto__carta h2 {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 400;
     margin-top: 27px;
     color: #fff; }
@@ -310,7 +310,7 @@
     height: 100%; }
     .contactanos .form__reg input {
       width: 100%;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       padding: 7px;
       box-sizing: border-box;
       font-size: 17px;
@@ -593,12 +593,16 @@
       width: 350px; }
   /* rutina fuerza*/
   main {
-    margin-bottom: 450px; }
+    margin-bottom: 150px; }
     main .row .rutina__torso-hipertrofia {
       padding-left: 100px; }
     main table {
       margin-left: 1px; }
-  /*---fin rutinas--*/ }
+  /*---fin rutinas--*/
+  .container .rutina__torso-fuerza .rutina__torso--1 {
+    padding-top: 40px;
+    padding-left: 200px;
+    margin-bottom: 100px; } }
 
 @media screen and (max-width: 700px) {
   /*---index---*/
@@ -619,7 +623,7 @@
     margin-top: -90px; }
   /*rutinas*/
   .container-1 {
-    margin-bottom: 500px; }
+    margin-bottom: 50px; }
   /*pie de pagina*/
   .footer {
     margin-top: 0;

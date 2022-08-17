@@ -8,19 +8,18 @@
    
 
     .carta{
-
         margin: auto;
         @extend .card.index;
         @extend .carta.h;
 
         &:hover{
-            transform: translateY(-10px);
+            transform: translateY(-2*5px);
         }
         
         .cover__carta{
             width: 100%px;
-            height: 180px;
-            border-radius: 14px;
+            height: 18*10px;
+            border-radius: 7+7px;
             overflow: hidden;
 
             img{
@@ -32,14 +31,14 @@
 
     .texto__carta{
         h2{
-            font-size: 22px;
-            font-weight: 400;
-            margin-top: 27px;
+            font-size: $size-/4;
+            font-weight: 40*10;
+            margin-top: 30-3px;
             color: map-get($map: $pallette , $key: titulos)
         }
         p{
-            margin-top: 20px;
-            font-size: 16px;
+            margin-top: $size-/5;
+            font-size: 4*4px;
             font-weight: 300;
             color: map-get($map: $pallette, $key: texto );
             letter-spacing: 0.5px;
@@ -52,7 +51,7 @@
         color: map-get($map: $pallette, $key:texto );
     
         .usuario__nombre{
-            font-size: 20px;
+            font-size: $size-/5;
         }
     }
 }

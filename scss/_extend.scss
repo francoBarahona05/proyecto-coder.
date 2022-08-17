@@ -4,7 +4,7 @@
     padding: 7px;
     box-sizing: border-box;
     font-size: 17px;
-    background: $color-primary;
+    background: map-get($map: $pallette, $key:primary );
     border-radius: 5px;
     color: map-get($map:$pallette , $key: texto );
     border: 0px;

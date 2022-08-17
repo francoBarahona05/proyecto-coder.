@@ -49,14 +49,14 @@
             th{
                 background: #0b132b;
                 color: map-get($map: $pallette, $key:texto );
-                border: 1px solid $color-secondary;
+                border: 1px solid map-get($map: $pallette, $key:secondary);
                padding: 10px;
             }
 
             td{
                 background: #0d2033;
                 color: map-get($map: $pallette, $key:texto );
-                border: 1px solid $color-secondary;
+                border: 1px solid map-get($map: $pallette, $key:secondary );
                 padding: 10px;
 
                 &:hover{

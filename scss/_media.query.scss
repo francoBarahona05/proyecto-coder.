@@ -320,20 +320,30 @@
 
     /* rutina fuerza*/
     main{
-        margin-bottom: 450px;
+        margin-bottom: 150px;
 
         .row{
             .rutina__torso-hipertrofia{
                 padding-left:100px ;
             }
         }
-        table{  
+
+        table{ 
             margin-left: 1px;
         }
     }
 
     /*---fin rutinas--*/
-    ;
+    
+    .container{
+        .rutina__torso-fuerza{
+            .rutina__torso--1{
+                padding-top: 40px;
+                padding-left: 200px;
+                margin-bottom: 100px;
+            }
+        } 
+    }
 }
 
 
@@ -354,11 +364,11 @@
     }
    
    /*triangulos index*/
-   .contenedor__triangulo{
+    .contenedor__triangulo{
        width: 5%;
        margin-left: 0;
        margin-top: -80px ;
-   }
+    }
  
     .header__index{
         .transition_1{
@@ -380,7 +390,7 @@
   
      /*rutinas*/
     .container-1{
-       margin-bottom: 500px;
+       margin-bottom: 50px;
     }  
 
     /*pie de pagina*/
