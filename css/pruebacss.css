@@ -443,9 +443,7 @@
       transform: translatex(-1400px); } }
   /*card index*/
   .contenedor__carta {
-    margin-top: 1100px; }
-    .contenedor__carta .carta {
-      margin: 0 105px 0 105px; }
+    margin-top: o; }
   /*triangulos index*/
   .triangulo {
     display: none; }
@@ -582,7 +580,7 @@
     .container-1 .card {
       margin-top: 0;
       margin-bottom: 50px; }
-  /*---rutinas fuerza---*/
+  /*---rutinas---*/
   .container-1 {
     width: 90%;
     display: flex;
@@ -650,14 +648,20 @@
     width: 80%; }
   /*---rutina.fuerza---*/
   .container .container-articulo .article__img img {
-    margin-top: 250px; }
+    margin-top: -50px;
+    margin-bottom: 40px; }
   .container .container-articulo .article--2 p {
     margin-left: 0;
     max-width: 100%; }
   .container .container-articulo .article p {
-    padding-left: 0; }
+    padding-left: 0;
+    margin-bottom: 0; }
   .container .container-articulo table {
     margin: 0; }
     .container .container-articulo table tr {
       padding-left: 0; }
+  .container .rutina__torso-fuerza .rutina__torso--1 {
+    padding-top: 40px;
+    padding-left: 100px;
+    margin-bottom: 100px; }
   /*---fin---*/ }

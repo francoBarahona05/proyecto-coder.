@@ -66,11 +66,7 @@
     }
     /*card index*/
     .contenedor__carta{
-        margin-top: 1100px;
-
-        .carta{
-            margin: 0 105px 0 105px;
-        }
+        margin-top: o;
     }
     /*triangulos index*/
     .triangulo{
@@ -305,7 +301,7 @@
             margin-bottom: 50px;
         }
     }
-    /*---rutinas fuerza---*/
+    /*---rutinas---*/
     .container-1{ 
         width: 90%;
         display: flex;
@@ -442,7 +438,8 @@
         .container-articulo{
             .article__img{
                 img{
-                   margin-top: 250px;
+                   margin-top: -50px;
+                   margin-bottom: 40px;
                 }
             }
 
@@ -456,6 +453,7 @@
             .article{
                 p{
                     padding-left: 0;
+                    margin-bottom: 0;
                 }
             }
             
@@ -468,5 +466,16 @@
             }
         }
     }
+
+    .container{
+        .rutina__torso-fuerza{
+            .rutina__torso--1{
+                padding-top: 40px;
+                padding-left: 100px;
+                margin-bottom: 100px;
+            }
+        } 
+    }
+    
    /*---fin---*/
 }
