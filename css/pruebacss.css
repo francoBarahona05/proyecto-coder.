@@ -665,3 +665,17 @@
     padding-left: 100px;
     margin-bottom: 100px; }
   /*---fin---*/ }
+
+.full_body .body__div h1 {
+  margin-left: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.full_body .body__div .parrafo {
+  margin-bottom: 50px; }
+
+.full_body .body__div1 .article {
+  margin-top: 100px; }
+
+.full_body .body__div1 .article__img {
+  margin-bottom: 50px; }
