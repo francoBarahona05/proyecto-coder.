@@ -260,7 +260,7 @@
 .form {
   margin: auto;
   width: 500px;
-  margin-top: 100px;
+  margin-top: 150px;
   border-radius: 2%; }
   .form .form__contenedor {
     width: 100%;
@@ -295,12 +295,12 @@
         color: #d63138; }
 
 .contactanos {
-  width: 450px;
   margin: auto;
+  width: 450px;
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 7px; }
+  border-radius: 7px;
+  margin-top: 80px; }
   .contactanos .form__titulo {
     text-align: center;
     color: #fff;
@@ -452,15 +452,15 @@
     width: 99%;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    margin-bottom: 270px; }
+    margin-top: 150px;
+    margin-bottom: 520px; }
     .container-1 .card {
       margin: auto; }
   /*contacto html*/
   .contactanos {
     width: 40%;
     margin-top: 220px;
-    margin-bottom: 220px; }
+    margin-bottom: 390px; }
     .contactanos .form__titulo {
       font-size: 80px; }
     .contactanos div .btn {
@@ -470,14 +470,15 @@
   .form {
     width: 40%;
     margin-top: 250px;
-    margin-bottom: 240px; }
+    margin-bottom: 440px; }
     .form .form__contenedor .form__titulo {
       font-size: 80px; }
     .form .form__contenedor div .form__reg--text {
       font-size: 30px; }
     .form .form__contenedor div .btn {
       padding-top: 5px;
-      font-size: 40px; } }
+      font-size: 40px; }
+  /*footer*/ }
 
 @media screen and (max-width: 1200px) {
   /*---index---*/
@@ -667,7 +668,7 @@
   /*---fin---*/ }
 
 .full_body .body__div h1 {
-  margin-left: 40%;
+  padding-left: 40%;
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -679,3 +680,5 @@
 
 .full_body .body__div1 .article__img {
   margin-bottom: 50px; }
+  .full_body .body__div1 .article__img img {
+    width: 90%; }
